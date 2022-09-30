@@ -1,6 +1,6 @@
 This is essentially the plugin manager for my nvim plugin manager
 
-##Getting Started
+## Getting Started
 
 Install neovim using 
 
