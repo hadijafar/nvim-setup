@@ -5,9 +5,13 @@ filetype off 		" required
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
-Plug 'folke/tokyonight.nvim'
 Plug 'tpope/vim-fugitive'
+Plug 'preservim/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 call plug#end()
 
 colorscheme tokyonight-night
+map <silent> <C-n> :NERDTreeFocus<CR>
